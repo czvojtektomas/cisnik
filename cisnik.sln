@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cisnik.Server", "cisnik.Server\cisnik.Server.csproj", "{20F6B54E-987C-478E-951C-24C008BC8B84}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "cisnik.client", "cisnik.client\cisnik.client.esproj", "{CD128E08-2DD3-4846-9080-0E1D29B9B2F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20F6B54E-987C-478E-951C-24C008BC8B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F6B54E-987C-478E-951C-24C008BC8B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F6B54E-987C-478E-951C-24C008BC8B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F6B54E-987C-478E-951C-24C008BC8B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD128E08-2DD3-4846-9080-0E1D29B9B2F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD128E08-2DD3-4846-9080-0E1D29B9B2F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD128E08-2DD3-4846-9080-0E1D29B9B2F1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CD128E08-2DD3-4846-9080-0E1D29B9B2F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD128E08-2DD3-4846-9080-0E1D29B9B2F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD128E08-2DD3-4846-9080-0E1D29B9B2F1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCDA9889-50EE-4C5A-B70A-95568AAAC122}
+	EndGlobalSection
+EndGlobal
