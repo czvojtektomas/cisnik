@@ -7,7 +7,7 @@
     <InvariantGlobalization>true</InvariantGlobalization>
     <SpaRoot>..\cisnik.client</SpaRoot>
     <SpaProxyLaunchCommand>npm run dev</SpaProxyLaunchCommand>
-    <SpaProxyServerUrl>https://localhost:5173</SpaProxyServerUrl>
+    <SpaProxyServerUrl>https://192.168.10.73:5173</SpaProxyServerUrl>
   </PropertyGroup>
 
   <ItemGroup>

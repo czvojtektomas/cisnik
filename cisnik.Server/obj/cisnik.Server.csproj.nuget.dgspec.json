@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miroslav.cikryt\\source\\repos\\cisnik\\cisnik.Server\\cisnik.Server.csproj": {}
+    "/home/tomas/cisnik/cisnik.Server/cisnik.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miroslav.cikryt\\source\\repos\\cisnik\\cisnik.Server\\cisnik.Server.csproj": {
+    "/home/tomas/cisnik/cisnik.Server/cisnik.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miroslav.cikryt\\source\\repos\\cisnik\\cisnik.Server\\cisnik.Server.csproj",
+        "projectUniqueName": "/home/tomas/cisnik/cisnik.Server/cisnik.Server.csproj",
         "projectName": "cisnik.Server",
-        "projectPath": "C:\\Users\\miroslav.cikryt\\source\\repos\\cisnik\\cisnik.Server\\cisnik.Server.csproj",
-        "packagesPath": "C:\\Users\\miroslav.cikryt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miroslav.cikryt\\source\\repos\\cisnik\\cisnik.Server\\obj\\",
+        "projectPath": "/home/tomas/cisnik/cisnik.Server/cisnik.Server.csproj",
+        "packagesPath": "/home/tomas/.nuget/packages/",
+        "outputPath": "/home/tomas/cisnik/cisnik.Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\miroslav.cikryt\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/tomas/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,6 +58,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.0, 8.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -68,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

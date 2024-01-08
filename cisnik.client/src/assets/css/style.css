@@ -1,0 +1,593 @@
+@font-face {
+  font-family: 'baka-webicons';
+  src:  url('fonts/baka-webicons.eot?n7r65s');
+  src:  url('fonts/baka-webicons.eot?n7r65s#iefix') format('embedded-opentype'),
+    url('fonts/baka-webicons.ttf?n7r65s') format('truetype'),
+    url('fonts/baka-webicons.woff?n7r65s') format('woff'),
+    url('fonts/baka-webicons.svg?n7r65s#baka-webicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ico32-"]:not([class^="ico32-modul-"]), [class*=" ico32-"]:not([class*=" ico32-modul-"]) {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'baka-webicons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ico32-data-disketa:before {
+  content: "\e900";
+}
+.ico32-data-dokumentOko:before {
+  content: "\e901";
+}
+.ico32-data-dokumentPdf:before {
+  content: "\e902";
+}
+.ico32-data-dokumentXls:before {
+  content: "\e903";
+}
+.ico32-data-duplikovat:before {
+  content: "\e904";
+}
+.ico32-data-export:before {
+  content: "\e905";
+}
+.ico32-data-externiOdkaz:before {
+  content: "\e906";
+}
+.ico32-data-filtr:before {
+  content: "\e907";
+}
+.ico32-data-guma:before {
+  content: "\e908";
+}
+.ico32-data-import:before {
+  content: "\e909";
+}
+.ico32-data-kos:before {
+  content: "\e90a";
+}
+.ico32-data-kosVelky:before {
+  content: "\e90b";
+}
+.ico32-data-lide:before {
+  content: "\e90c";
+}
+.ico32-data-lideVypis:before {
+  content: "\e90d";
+}
+.ico32-data-lupa:before {
+  content: "\e90e";
+}
+.ico32-data-lupaDalsi:before {
+  content: "\e90f";
+}
+.ico32-data-obnovit:before {
+  content: "\e910";
+}
+.ico32-data-oko:before {
+  content: "\e911";
+}
+.ico32-data-sponka:before {
+  content: "\e912";
+}
+.ico32-data-sponkaVelka:before {
+  content: "\e913";
+}
+.ico32-data-tiskarna:before {
+  content: "\e914";
+}
+.ico32-data-tuzka:before {
+  content: "\e915";
+}
+.ico32-data-tuzkaVelka:before {
+  content: "\e916";
+}
+.ico32-gdpr-denikPoverenceHlaseniKomentovat:before {
+  content: "\e917";
+}
+.ico32-gdpr-denikPoverenceHlaseniNove:before {
+  content: "\e918";
+}
+.ico32-gdpr-denikPoverenceHlaseniUzavrit:before {
+  content: "\e919";
+}
+.ico32-gdpr-denikPoverenceHlaseniZnovuOtevrit:before {
+  content: "\e91a";
+}
+.ico32-gdpr-denikPoverenceStavNovy:before {
+  content: "\e91b";
+}
+.ico32-gdpr-denikPoverenceStavReseny:before {
+  content: "\e91c";
+}
+.ico32-gdpr-denikPoverenceStavUzavreny:before {
+  content: "\e91d";
+}
+.ico32-gdpr-error:before {
+  content: "\e91e";
+}
+.ico32-gdpr-fail:before {
+  content: "\e91f";
+}
+.ico32-gdpr-none:before {
+  content: "\e920";
+}
+.ico32-gdpr-notAvailable:before {
+  content: "\e921";
+}
+.ico32-gdpr-ok:before {
+  content: "\e922";
+}
+.ico32-gdpr-other:before {
+  content: "\e923";
+}
+.ico32-gdpr-stavSouhlasuExpirovano:before {
+  content: "\e924";
+}
+.ico32-gdpr-stavSouhlasuNovy:before {
+  content: "\e925";
+}
+.ico32-gdpr-stavSouhlasuOdmitnuto:before {
+  content: "\e926";
+}
+.ico32-gdpr-stavSouhlasuOdsouhlaseno:before {
+  content: "\e927";
+}
+.ico32-gdpr-stavSouhlasuOdvolano:before {
+  content: "\e928";
+}
+.ico32-gdpr-stavSouhlasuZadostOdvolani:before {
+  content: "\e929";
+}
+.ico32-gdpr-stavSouhlasuZruseno:before {
+  content: "\e92a";
+}
+.ico32-menu-domaciUkoly:before {
+  content: "\e92b";
+}
+.ico32-menu-hamburger:before {
+  content: "\e92c";
+}
+.ico32-menu-omluvitAbsenci:before {
+  content: "\e92d";
+}
+.ico32-menu-polozkaDolu:before {
+  content: "\e92e";
+}
+.ico32-menu-polozkaNahoru:before {
+  content: "\e92f";
+}
+.ico32-menu-polozkaVlevo:before {
+  content: "\e930";
+}
+.ico32-menu-polozkaVpravo:before {
+  content: "\e931";
+}
+.ico32-menu-poslatOmluvenku:before {
+  content: "\e932";
+}
+.ico32-menu-prubezneZnamky:before {
+  content: "\e933";
+}
+.ico32-menu-roletka:before {
+  content: "\e934";
+}
+.ico32-menu-spendlik:before {
+  content: "\e935";
+}
+.ico32-menu-srdce:before {
+  content: "\e936";
+}
+.ico32-menu-tecka:before {
+  content: "\e937";
+}
+.ico32-menu-uzivatel:before {
+  content: "\e938";
+}
+.ico32-menu-uzivatelPrepnout:before {
+  content: "\e939";
+}
+.ico32-menu-vlastovka:before {
+  content: "\e93a";
+}
+.ico32-menu-vypustkaHorizontalni:before {
+  content: "\e93b";
+}
+.ico32-menu-vypustkaVertikalni:before {
+  content: "\e93c";
+}
+.ico32-menu-zapisDoTridnice:before {
+  content: "\e93d";
+}
+.ico32-ovladani-kalendar:before {
+  content: "\e93e";
+}
+.ico32-ovladani-krizek:before {
+  content: "\e93f";
+}
+.ico32-ovladani-odebratVse:before {
+  content: "\e940";
+}
+.ico32-ovladani-odznacitVse:before {
+  content: "\e941";
+}
+.ico32-ovladani-oznacitVse:before {
+  content: "\e942";
+}
+.ico32-ovladani-plus:before {
+  content: "\e943";
+}
+.ico32-ovladani-potvrdit:before {
+  content: "\e944";
+}
+.ico32-ovladani-pridatVse:before {
+  content: "\e945";
+}
+.ico32-ovladani-smerovkaDolu:before {
+  content: "\e946";
+}
+.ico32-ovladani-smerovkaNahoru:before {
+  content: "\e947";
+}
+.ico32-ovladani-smerovkaNahoruDolu:before {
+  content: "\e948";
+}
+.ico32-ovladani-smerovkaVlevo:before {
+  content: "\e949";
+}
+.ico32-ovladani-smerovkaVlevoDvojita:before {
+  content: "\e94a";
+}
+.ico32-ovladani-smerovkaVlevoMax:before {
+  content: "\e94b";
+}
+.ico32-ovladani-smerovkaVpravo:before {
+  content: "\e94c";
+}
+.ico32-ovladani-smerovkaVpravoDvojita:before {
+  content: "\e94d";
+}
+.ico32-ovladani-smerovkaVpravoMax:before {
+  content: "\e94e";
+}
+.ico32-data-barva:before {
+  content: "\e94f";
+}
+.ico32-data-disketaFajfka:before {
+  content: "\e950";
+}
+.ico32-data-disketaHodiny:before {
+  content: "\e951";
+}
+.ico32-data-disketaKrizek:before {
+  content: "\e952";
+}
+.ico32-data-disketaPlus:before {
+  content: "\e953";
+}
+.ico32-data-disketaSmerovkyVpravo:before {
+  content: "\e954";
+}
+.ico32-data-filtrHodnoceni:before {
+  content: "\e955";
+}
+.ico32-data-filtrObecne:before {
+  content: "\e956";
+}
+.ico32-data-filtrOmluvenky:before {
+  content: "\e957";
+}
+.ico32-data-filtrPouzePrectene:before {
+  content: "\e958";
+}
+.ico32-data-filtrPouzeZdrojovane:before {
+  content: "\e959";
+}
+.ico32-data-filtrSystemove:before {
+  content: "\e95a";
+}
+.ico32-data-filtrVcetneMinulych:before {
+  content: "\e95b";
+}
+.ico32-data-filtrVcetnePrazdnych:before {
+  content: "\e95c";
+}
+.ico32-data-historie:before {
+  content: "\e95d";
+}
+.ico32-data-krokZpet:before {
+  content: "\e95e";
+}
+.ico32-data-prehled:before {
+  content: "\e95f";
+}
+.ico32-data-prejmenovat:before {
+  content: "\e960";
+}
+.ico32-data-presunout:before {
+  content: "\e961";
+}
+.ico32-funkce-onlineMeeting:before {
+  content: "\e962";
+}
+.ico32-komens-obalkaOtevrena:before {
+  content: "\e963";
+}
+.ico32-komens-obalkaZavrena:before {
+  content: "\e964";
+}
+.ico32-komens-odpoved:before {
+  content: "\e965";
+}
+.ico32-komens-potlaceniZrusit:before {
+  content: "\e966";
+}
+.ico32-komens-potlacit:before {
+  content: "\e967";
+}
+.ico32-komens-potvrdit:before {
+  content: "\e968";
+}
+.ico32-komens-preposlat:before {
+  content: "\e969";
+}
+.ico32-komens-upravit:before {
+  content: "\e96a";
+}
+.ico32-menu-napoveda:before {
+  content: "\e96b";
+}
+.ico32-menu-nastaveni:before {
+  content: "\e96c";
+}
+.ico32-menu-navigace:before {
+  content: "\e96d";
+}
+.ico32-menu-osobaOdchod:before {
+  content: "\e96e";
+}
+.ico32-menu-osobaPrichod:before {
+  content: "\e96f";
+}
+.ico32-menu-polozkaVlevoMax:before {
+  content: "\e970";
+}
+.ico32-menu-polozkaVpravoMax:before {
+  content: "\e971";
+}
+.ico32-ovladani-checkboxIndeterminate-legacy:before {
+  content: "\e972";
+}
+.ico32-ovladani-checkboxOff-legacy:before {
+  content: "\e973";
+}
+.ico32-ovladani-checkboxOn-legacy:before {
+  content: "\e974";
+}
+.ico32-ovladani-checkboxOnInverse-legacy:before {
+  content: "\e975";
+}
+.ico32-ovladani-orientaceZobrazeni:before {
+  content: "\e976";
+}
+.ico32-ovladani-panelVelikostDolu:before {
+  content: "\e977";
+}
+.ico32-ovladani-panelVelikostNahoru:before {
+  content: "\e978";
+}
+.ico32-ovladani-panelVelikostVlevo:before {
+  content: "\e979";
+}
+.ico32-ovladani-panelVelikostVpravo:before {
+  content: "\e97a";
+}
+.ico32-ovladani-radiobuttonOff-legacy:before {
+  content: "\e97b";
+}
+.ico32-ovladani-radiobuttonOn-legacy:before {
+  content: "\e97c";
+}
+.ico32-ovladani-radiobuttonOnInverse-legacy:before {
+  content: "\e97d";
+}
+.ico32-ovladani-skupinyOddelit:before {
+  content: "\e97e";
+}
+.ico32-ovladani-skupinySpojit:before {
+  content: "\e97f";
+}
+.ico32-ovladani-upominka:before {
+  content: "\e980";
+}
+.ico32-ovladani-zobrazitIkony:before {
+  content: "\e981";
+}
+.ico32-ovladani-zobrazitSeznam:before {
+  content: "\e982";
+}
+.ico32-znamky-ctvrtleti:before {
+  content: "\e983";
+}
+.ico32-znamky-minusyNe:before {
+  content: "\e984";
+}
+.ico32-znamky-minusyPred:before {
+  content: "\e985";
+}
+.ico32-znamky-minusyZa:before {
+  content: "\e986";
+}
+.ico32-znamky-prumer:before {
+  content: "\e987";
+}
+.ico32-funkce-onlineMeetingTeams:before {
+  content: "\e988";
+}
+.ico32-funkce-onlineMeetingGMeet:before {
+  content: "\e989";
+}
+.ico32-funkce-datoveSchranky:before {
+  content: "\e98a";
+}
+.ico32-funkce-datoveSchrankyHledat:before {
+  content: "\e98b";
+}
+.ico32-data-dokumentXlsParametry:before {
+  content: "\e98c";
+}
+.ico32-data-filtrNastaveni:before {
+  content: "\e98d";
+}
+.ico32-data-raditSestupne:before {
+  content: "\e98e";
+}
+.ico32-data-vyberVeSkupine:before {
+  content: "\e98f";
+}
+.ico32-data-globus:before {
+  content: "\e990";
+}
+.ico32-data-globusKrizek:before {
+  content: "\e991";
+}
+.ico32-data-poznamka:before {
+  content: "\e992";
+}
+.ico32-data-tiskarnaCovid:before {
+  content: "\e993";
+}
+.ico32-komens-odpovedVsem:before {
+  content: "\e994";
+}
+.ico32-menu-madloHorizontalni:before {
+  content: "\e995";
+}
+.ico32-menu-madloVertikalni:before {
+  content: "\e996";
+}
+.ico32-menu-vyberRozsireny:before {
+  content: "\e997";
+}
+.ico32-data-informace:before {
+  content: "\e998";
+}
+.ico32-ovladani-zamitnout:before {
+  content: "\e999";
+}
+.ico32-ovladani-parametry:before {
+  content: "\e99a";
+}
+.ico32-ovladani-premistit:before {
+  content: "\e99b";
+}
+.ico32-ovladani-kopirovat:before {
+  content: "\e99c";
+}
+.ico32-ovladani-minus:before {
+  content: "\e99d";
+}
+.ico32-ovladani-minusVice:before {
+  content: "\e99e";
+}
+.ico32-ovladani-plusVice:before {
+  content: "\e99f";
+}
+.ico32-ovladani-otevritVNovemOkne:before {
+  content: "\e9a0";
+}
+.ico32-ovladani-stromStrukturaDat:before {
+  content: "\e9a1";
+}
+.ico32-ovladani-stromPridatUzel:before {
+  content: "\e9a2";
+}
+.ico32-sestavy-orientaceStranky:before {
+  content: "\e9a3";
+}
+.ico32-sestavy-orientaceStrankyNaVysku:before {
+  content: "\e9a4";
+}
+.ico32-sestavy-orientaceStrankyNaSirku:before {
+  content: "\e9a5";
+}
+.ico32-sestavy-roztahnoutSloupce:before {
+  content: "\e9a6";
+}
+.ico32-sestavy-velikostTextu:before {
+  content: "\e9a7";
+}
+.ico32-sestavy-velikostRadku:before {
+  content: "\e9a8";
+}
+.ico32-sestavy-vzhledZakladni:before {
+  content: "\e9a9";
+}
+.ico32-sestavy-vzhledZvyraznitSudeRadky:before {
+  content: "\e9aa";
+}
+.ico32-sestavy-vzhledPodtrhnoutRadky:before {
+  content: "\e9ab";
+}
+.ico32-sestavy-vzhledTabulka:before {
+  content: "\e9ac";
+}
+.ico32-sestavy-zobrazeniStrankyJedna:before {
+  content: "\e9ad";
+}
+.ico32-sestavy-zobrazeniStrankyVice:before {
+  content: "\e9ae";
+}
+.ico32-sestavy-zobrazeniCelaObrazovka:before {
+  content: "\e9af";
+}
+.ico32-sestavy-zobrazeniOkno:before {
+  content: "\e9b0";
+}
+.ico32-srdce-plne:before {
+  content: "\e9b1";
+}
+.ico32-zamek:before {
+  content: "\e9b2";
+}
+.ico32-info-zamknoutUcebnu:before {
+  content: "\e9b3";
+}
+.ico32-info-vykricnikTrojuhelnik:before {
+  content: "\e9b4";
+}
+.ico32-data-zvonek:before {
+  content: "\e9b5";
+}
+.ico32-info-wifiPlna:before {
+  content: "\e9b6";
+}
+.ico32-info-wifiVyp:before {
+  content: "\e9b7";
+}
+.ico32-info-server:before {
+  content: "\e9b8";
+}
+.ico32-info-serverSkrtnuty:before {
+  content: "\e9b9";
+}
+.ico32-info-vykricnikKruh:before {
+  content: "\e9ba";
+}
+.ico32-info-krizekKruh:before {
+  content: "\e9bb";
+}
+.ico32-info-oblicejTuhy:before {
+  content: "\e9bc";
+}
